@@ -6,32 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Bank Account Test</title>
 </head>
 
 <body>
-    <!-- main page  -->
-    <div class="container">
-        <!-- header -->
+    <div class="contentContainer">
         <h1 class="headerName">Bank of Noir</h1>
-        <h2 class="account">Account List</h2>
-        <!-- table -->
-        <table>
+        <h2 class="account">Account Data</h2>
+        <table class="tab" id="data3">
             <thead>
-                <!-- table coulumn name -->
-                <tr class="tes">
+                <tr>
                     <th>Account Number</th>
                     <th>Currency</th>
                     <th>Balance</th>
                     <th>Last Transaction Date</th>
+                    <th>Value Date</th>
+                    <th>Currency</th>
+                    <th>Debit</th>
+                    <th>Credit</th>
+                    <th>Transaction Narative</th>
                 </tr>
             </thead>
-            <!-- table cell and row with data -->
-            <tbody id="list"></tbody>
         </table>
     </div>
-    <script src="script.js"></script>
+    <button type="button" id="myBtn"><i class="fas fa-backspace"></i></button>
+    </div>
+    <script src="script4.js"></script>
 </body>
 
 </html>
