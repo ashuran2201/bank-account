@@ -1,0 +1,80 @@
+ body {
+     margin: 0;
+     width: 100%;
+     background-color: #e4fbff;
+ }
+
+ .container {
+     width: 100%;
+ }
+ .contentContainer {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ /* Header */
+ .headerName {
+     margin-top: 0;
+     margin-bottom: 20px;
+     font-size: 40px;
+     text-align: center;
+ }
+
+ /* content */
+ .account {
+     margin-top: 20px;
+     margin-bottom: 10px;
+     text-align: center;
+ }
+
+ /* table */
+ table {
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+     border: 2px solid black;
+     background-color: #fff;
+     max-width: 100%;
+     border-collapse: collapse;
+
+ }
+
+ tbody tr:hover {
+     background-color: #b8b5ff;
+     cursor: pointer;
+     color: #edeef7;
+ }
+
+ th {
+     padding: 10px;
+     height: 20px;
+     background-color: #7868e6;
+     border-bottom: 1px solid #ddd;
+     text-align: center;
+
+ }
+
+ td {
+     padding: 10px;
+     text-align: center;
+     border-bottom: 1px solid #ddd;
+ }
+
+ .tab {
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+     border: 2px solid black;
+     background-color: #fff;
+     max-width: 50%;
+     border-collapse: collapse;
+ }
+
+ button {
+     height: 20px;
+     width: 100px;
+     margin: -20px -50px;
+     position: relative;
+     top: 55%;
+     left: 50%;
+ }
