@@ -1,18 +1,18 @@
 // open account data
 function eventHandler1(event) {
-    window.location.replace('account1.html');
+    window.location.replace('html/account1.html');
 }
 function eventHandler2(event) {
-    window.location.replace('account2.html');
+    window.location.replace('html/account2.html');
 }
 function eventHandler3(event) {
-    window.location.replace('account3.html');
+    window.location.replace('html/account3.html');
 }
 function eventHandler4(event) {
-    window.location.replace('account4.html');
+    window.location.replace('html/account4.html');
 }
 function eventHandler5(event) {
-    window.location.replace('account5.html');
+    window.location.replace('html/account5.html');
 }
 // mocked data
 let response = [{

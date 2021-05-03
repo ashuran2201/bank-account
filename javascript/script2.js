@@ -5,7 +5,7 @@ if (btn) {
 }
 
 function clickHandler(event) {
-    window.location.replace('index.html');
+    window.location.replace('/index.html');
 }
 // mocked data
 let response = [{
